@@ -2,7 +2,7 @@
 
 ### Correlation & EDA.ipynb
 
-Correlation & exploratory analysis of movie data with visualizations (e.g. correlation heatmaps, scatter plots, word clouds etc.)
+Correlation & exploratory analysis with visualizations (e.g. correlation heatmaps, scatter plots, word clouds etc.)
 
 ### Network Graph Analysis.ipynb
 
