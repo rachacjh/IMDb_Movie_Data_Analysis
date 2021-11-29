@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Network Graph Legend</title>
+</head>
+<body>
+	<h1>Network Graph Legend</h1>
+	<h2><u>Interactions</u></h2>
+	<ul>
+		<li>Hover over nodes to view collaboration data</li>
+		<li>Zoom/drag to explore network and view actor/director names</li>
+		<li>Click/drag nodes to highlight edges and isolate nodes</li>
+	</ul>
+	<h2><u>Nodes</u> (represents a director or actor)</h2>
+	<p><b>"Star value"</b> = AVERAGE between no. of unique individuals that director/actor worked with, and total no. of times director/actor has worked with others</p>
+	<dl>
+		<dt><b>Shape:</b></dt>
+			<dd>&#9650 - director</dd>
+			<dd>&#9679 - actor</dd>
+			<dd>&#9733 - director/actor with star value of at least 15</dd>
+		<dt><b>Size:</b></dt>
+			<dd>- Scaled by star value</dd>
+		<dt><b>Color:</b></dt>
+			<dd><span style="color:orange">Orange</span> = star value of at least 15 (only for &#9733)</dd>
+			<dd><span style="color:salmon">Salmon</span> = star value of 10-14</dd>
+			<dd><span style="color:blue">Blue</span>   = star value of 9 and below</dd>
+	</dl>
+	<h2><u>Edges</u> (represents collaboration between 2 nodes)</h2>
+	<dl>
+		<dt><b>Color:</b></dt>
+			<dd><span style="color:fuchsia">Pink</span>   = at least 5 collaborations</dd>
+			<dd><span style="color:gold">Yellow</span> = 4</dd>
+			<dd><span style="color:orange">Orange</span> = 3</dd>
+			<dd><span style="color:red">Red</span>    = 2</dd>
+			<dd><span style="color:blue">Blue</span>   = 1</dd>
+		<dt><b>Width:</b></dt>
+			<dd>- Scaled by no. of collaborations</dd>
+	</dl>
+</body>
+</html>
